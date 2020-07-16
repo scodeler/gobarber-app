@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const SignOut: React.FC = () => {
-  return()
-}
+import { View, Text } from 'react-native';
 
-export default SignOut
+const SignUp: React.FC = () => {
+  return (
+    <View>
+      <Text>Hello</Text>
+    </View>
+  );
+};
+
+export default SignUp;
