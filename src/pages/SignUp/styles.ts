@@ -15,16 +15,7 @@ export const Title = styled.Text`
   margin: 64px 0 24px;
 `;
 
-export const ForgotPassword = styled.TouchableOpacity`
-  margin-top: 24px;
-`;
-export const ForgotPasswordText = styled.Text`
-  color: #f4edd8;
-  font-size: 16px;
-  font-family: 'RobotoSlab-Regular';
-`;
-
-export const CreateAccountButton = styled.TouchableOpacity`
+export const BackToSignIn = styled.TouchableOpacity`
   position: absolute;
   left: 0;
   bottom: 0;
@@ -36,8 +27,8 @@ export const CreateAccountButton = styled.TouchableOpacity`
   justify-content: center;
   flex-direction: row;
 `;
-export const CreateAccountButtonText = styled.Text`
-  color: #ff9000;
+export const BackToSignInText = styled.Text`
+  color: #fff;
   font-size: 18px;
   font-family: 'RobotoSlab-Regular';
   margin-left: 16px;
